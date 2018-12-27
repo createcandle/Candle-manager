@@ -11,11 +11,11 @@
 
 // When users create new code from a template like this, the settings in this area are turned into an easy to use interface.
 
-int blinkSeconds = 2; // How many seconds should a LED blink on-off take?
+int blinkSeconds = 2;  // How many seconds should a LED blink on-off take?
 
-#define NOSE 5 // Defines are also possible. They are turned into a settings interface automatically too.
+#define NOSE 5         // Defines are also possible. They are turned into a settings interface automatically too.
 
-#define SOMETHING; // A boolean value. This is turned into a checkbox.
+#define SOMETHING      // A boolean value. This is turned into a checkbox.
 
 
  /* END OF SETTINGS
