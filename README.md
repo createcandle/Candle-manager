@@ -12,7 +12,9 @@ A web-based tool for creating and uploading Arduino code. Designed to be beginne
 
 ![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/upload_wizard3.png)
 
-![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/device_doctor.png)
+![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/uploading_worked.png)
 
 
 ![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/device_doctor.png)
+
+![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/editing_code.png)
