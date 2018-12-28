@@ -6,7 +6,7 @@ A web-based tool for creating and uploading Arduino code. Designed to be beginne
 Create new code from built-in templates. The templates are just normal Arduino code themselves which are placed in the 'source' directory.
 ![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/create_new.png)
 
-The template code's optional parts are translated into an easy to use interface. After changing settings a new version of the code is generated:
+The template code's settings are translated into an easy to use interface. After changing settings a new version of the code is generated. This way the user never has to edit code.
 ![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/code_ux_generation.png)
 
 The new code can then be upload via the upload wizard:
