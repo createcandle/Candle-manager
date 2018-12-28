@@ -44,5 +44,21 @@ https://github.com/tsathishkumar/MySController-rs
 - Could be integrated further with MySController-rs. It already grabs data on wirelessly connected devices from it.
 
 
+# Installation
+
+- ssh into your raspberry pi
+- enter these commands: 
+git clone https://github.com/createcandle/Candle-manager.git
+chmod +x ./Candle-manager/start.sh
+./Candle-manager/start.sh
+
+That should create a new folder "Candle-manager". inside it you will find a folder called "source". This is were you can place Arduino sketches that you want to use as 'templates' for new bits of code. The example that's already present will show you how you can optimise your sketches so that they support creating a visual settings interface, as well as auto-installing of libraries.
+
+Optional:
+- Tip: Install this on the Mozilla Gateway.
+- Tip: Install MySController-rs as well.
+
+
 # Other things
 - It was inspired by https://github.com/rakeshpai/mysensors-network-manager
+- Version 0.3.3 of the Arduino CLI is packaged in. It works for Arm based devices such as the Raspberry Pi. You can check if a new version of the CLI is available. If you use a another platform like Windows that uses Intel chips you will have to download the version of the CLI for that manually.
