@@ -41,6 +41,7 @@ https://github.com/tsathishkumar/MySController-rs
 
 # Future plans, ideas and thoughts
 - The Mozilla Gateway is looking for a way for third party creations like this to be integrated. See: https://github.com/mozilla-iot/gateway/issues/1505
+- Could be integrated further with MySController-rs. It already grabs data on wirelessly connected devices from it.
 
 
 # Other things
