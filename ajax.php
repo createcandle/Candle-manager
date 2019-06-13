@@ -177,7 +177,7 @@ if (isset($_GET["cli"])) {
 			foreach($includeLines[0] as $line) {
 				
 				// Get the best library name. If there is a commented name to seach for, we prefer that.
-				preg_match("~^#include\s(\"|\<)(\w+)[.h]+(\"|\<)\s*(\/?\/?\s?\"([\w+\s-]*)\")?~", $line, $matches);
+				preg_match("~^#include\s(\"|\<)(\w+)[.h]+(\"|\>)\s*(\/?\/?\s?\"([\w+\s-]*)\")?~", $line, $matches);
 				$searchForMe = "";
 				if(isset($matches[5])){
 					$searchForMe = $matches[5];
