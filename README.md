@@ -1,6 +1,9 @@
 # Candle-manager
 A web-based tool for creating and uploading Arduino code. Designed to be beginner friendly.
 
+This project has been turned into an add-on for the Mozilla WebThings Gateway, so this PHP code will no longer be developed further. Find the new code here:
+https://github.com/createcandle/Candle-manager-addon
+
 ![alt text](https://raw.githubusercontent.com/createcandle/Candle-manager/master/screenshots/dashboard.png)
 
 Create new code from built-in templates. The templates are just normal Arduino code themselves which are placed in the 'source' directory.
